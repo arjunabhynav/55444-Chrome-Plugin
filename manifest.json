@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "55444.in",
+  "description": "This extension is a search plugin for 55444.in apps and SMSGyan",
+  "version": "1.0",
+
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "emulator.html"
+  },
+  "permissions": [
+    "http://gyan.mobi/",
+	"https://gyan.mobi/"
+  ]
+}
