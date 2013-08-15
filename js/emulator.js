@@ -5,8 +5,8 @@ function loadResponse(url)
     $.get(url, function(data) {
         $('#content').html(data);
         var output = document.getElementById('output').innerHTML;
-	    $('#content').html(output);
-		$('#content').append('<div id="copyright">Powered by Innoz</div>');
+        $('#content').html(output);
+        $('#content').append('<div id="copyright">Powered by Innoz</div>');
         document.getElementById('query').value = '';
     });
 }
