@@ -17,6 +17,6 @@
   },
   "permissions": [
     "http://gyan.mobi/",
-	"https://gyan.mobi/"
+    "https://gyan.mobi/"
   ]
 }
